@@ -324,6 +324,8 @@ input, select, textarea {
 	}
 
 	p {
+		font-family: 'Poppins', sans-serif;
+		font-size: .9em;
 		margin: 0 0 1.5rem 0;
 	}
 
@@ -333,8 +335,8 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: rgba(255, 255, 255, 0.875);
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: 700;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
 		line-height: 1.3;
 		margin: 0 0 0.75rem 0;
 		letter-spacing: -0.05em;
@@ -343,6 +345,10 @@ input, select, textarea {
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+		}
+
+		h1 {
+			text-shadow: -.4rem .4rem 1rem #2e2b374e;
 		}
 
 	h1.major, h2.major, h3.major {
@@ -359,7 +365,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		line-height: 1.2;
 	}
 
@@ -372,7 +378,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		line-height: 1.2;
 	}
 
@@ -1327,10 +1333,10 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.grid-icons {
-				-moz-justify-content: -moz-flex-start;
-				-webkit-justify-content: -webkit-flex-start;
-				-ms-justify-content: -ms-flex-start;
-				justify-content: flex-start;
+				-moz-justify-content: -moz-center;
+				-webkit-justify-content: -webkit-center;
+				-ms-justify-content: -ms-center;
+				justify-content: center;
 				width: 100% !important;
 				margin: -1rem 0 1.5rem -1rem;
 			}
@@ -1344,6 +1350,7 @@ input, select, textarea {
 
 				ul.grid-icons > li {
 					margin: 1rem 0 0 1rem !important;
+					padding: 0;
 				}
 
 					ul.grid-icons > li:before {
@@ -1497,16 +1504,16 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.875) !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 0.6rem;
-		font-weight: 700;
+		font-family: 'Poppins', Helvetica, sans-serif;
+		font-size: .9rem;
+		font-weight: 500;
 		height: 2.75rem;
-		letter-spacing: 0.15rem;
+		/* letter-spacing: 0.1rem; */
 		line-height: 2.75rem;
 		padding: 0 1.5rem 0 1.65rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		white-space: nowrap;
 	}
 
@@ -2373,7 +2380,7 @@ input, select, textarea {
 					margin-left: 7rem;
 				}
 
-					.panel > .inner.columns.divided > *:before {
+					/* .panel > .inner.columns.divided > *:before {
 						content: '';
 						position: absolute;
 						top: 3.5rem;
@@ -2381,11 +2388,11 @@ input, select, textarea {
 						height: calc(100% - 7rem);
 						margin-left: -3.5rem;
 						background-color: rgba(255, 255, 255, 0.25);
-					}
+					} */
 
-				.panel > .inner.columns.divided > :first-child {
+				/* .panel > .inner.columns.divided > :first-child {
 					margin-left: 0;
-				}
+				} */
 
 					.panel > .inner.columns.divided > :first-child:before {
 						display: none;
